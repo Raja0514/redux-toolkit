@@ -1,0 +1,30 @@
+
+Redux steps:-
+
+->Create a Store
+
+->Configure the store with App
+
+
+->Create Slices==>actions+reducers
+      
+    Slice is a combinations of actions and reducers
+
+    for every Component we need to create Slices
+
+    what is actions?
+
+    actions is a command to update your state.
+
+    reducers is a store keeper ,is also have function to update your state
+
+->Call actions from Component
+
+Two Spacial hooks react-redux
+
+1.useDispatch-actions.
+
+2.useselector-for getting state data from store.
+
+
+
